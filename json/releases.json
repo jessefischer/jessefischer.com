@@ -91,11 +91,88 @@
     ],
     "sideman":[
         {
-            "name":"<em>War Chant</em> EP",
+            "name":"&ldquo;Dangerous Energy&rdquo;",
+            "artistName":"Ve.Nika",
+            "year":"2021",
+            "coverImgUrl":"https://i.scdn.co/image/ab67616d0000b273f83f97985b0dcdea81cb9c75",
+            "extUrl":"https://open.spotify.com/album/2cMFAxwJNAqyODLOVaLkDi?si=YA6LNXB6Q7Kc_rrAhx9sPA",
+            "description":"Mixing"
+        },
+
+        {
+            "name":"&ldquo;Lived to Love You&rdquo;",
+            "artistName":"Ash Rose",
+            "year":"2021",
+            "coverImgUrl":"https://i.scdn.co/image/ab67616d0000b273b446ef39e33cbb3475d4c607",
+            "extUrl":"https://open.spotify.com/album/7CIPEg4hNBcvmC6ME2wVXd?si=wnx8GqTvTrKcQ3ifYp0ung",
+            "description":"Production, Engineering, Mixing, Keyboards, Bass"
+        },
+
+        {
+            "name":"&ldquo;Thinko&rdquo;",
+            "artistName":"Plasticity",
+            "year":"2021",
+            "coverImgUrl":"https://f4.bcbits.com/img/a3612342471_10.jpg",
+            "extUrl":"https://open.spotify.com/album/4nOPZY6cO3aAPHdaoxpfUE?si=miKrbwXYSnSdJul60pOG6A",
+            "description":"Keyboards"
+        },
+
+        {
+            "name":"<em>2099</em>",
+            "artistName":"BIGYUKI",
+            "year":"2020",
+            "coverImgUrl":"https://i.scdn.co/image/ab67616d0000b27362eea4553f6ee9a4cfd7ec73",
+            "extUrl":"https://open.spotify.com/album/58M7yAOBSsTNcBv0oWWoOW?si=HDA2RU93SdWOgkddNMfp9Q",
+            "description":"Engineering (&ldquo;Trust Us&rdquo;, &ldquo;MRO (Water Tale)&rdquo;)"
+        },
+
+        {
+            "name":"&ldquo;Machine&rdquo;",
+            "artistName":"Nadia Washington",
+            "year":"2020",
+            "coverImgUrl":"https://i.scdn.co/image/ab67616d0000b2732783cee856fe318df80ecc71",
+            "extUrl":"https://open.spotify.com/album/5IhFseBch8bGVt3Dz7iMjv?si=NiagrvZGQumeSh1MlYmJ9Q",
+            "description":"Co-Production, Engineering, Keyboards, Mixing"
+        },
+        {
+            "name":"&ldquo;Stay on Course&rdquo;",
+            "artistName":"Jessie Davis",
+            "year":"2020",
+            "coverImgUrl":"https://f4.bcbits.com/img/a2927451556_10.jpg",
+            "extUrl":"https://open.spotify.com/album/2dOMq7X8qHDaPKjkCjDFDG?si=9JfRpt9oT4i8bIZI3Xk38w",
+            "description":"Mixing"
+        },
+
+        {
+            "name":"<em>Transmissions</em>",
+            "artistName":"The Basin",
+            "year":"2020",
+            "coverImgUrl":"https://i.scdn.co/image/ab67616d0000b273eb145d09edddbceb5e864788",
+            "extUrl":"https://open.spotify.com/album/3NVTovkL0ikLvVogY54Msk?si=xS3iLkUkRKK-fcUuZmSDSw",
+            "description":"Keyboards, Production &amp; Engineering (&ldquo;Lost Words&rdquo;)"
+        },
+        {
+            "name":"&ldquo;Lightness&rdquo;",
+            "artistName":"Plasticity",
+            "year":"2020",
+            "coverImgUrl":"https://f4.bcbits.com/img/a1650934653_10.jpg",
+            "extUrl":"https://plasticity-music.bandcamp.com/track/lightness",
+            "description":"Keyboards"
+        },
+        {
+            "name":"&ldquo;Wild Thing&rdquo;",
+            "artistName":"Jasmine Cephas Jones",
+            "year":"2020",
+            "coverImgUrl":"https://images-na.ssl-images-amazon.com/images/I/91CPTVfAlyL._AC_UL600_SR600,600_.jpg",
+            "extUrl":"https://open.spotify.com/album/7j0lSFWfjyQiQRwV3j2q3s",
+            "description":"Engineer, Additional Production, Keyboards, Bass, Sound Design"
+        },
+        {
+            "name":"<em>War Chant</em>",
             "artistName":"Ajoyo",
-            "year":"2019",
-            "coverImgUrl":"https://f4.bcbits.com/img/a0652481731_2.jpg",
-            "extUrl":"https://ajoyo.bandcamp.com/album/war-chant-ep",
+            "year":"2020",
+            "coverImgUrl":"https://f4.bcbits.com/img/a3118886676_10.jpg",
+            "extUrl":"https://ajoyo.bandcamp.com/album/war-chant",
             "label":"Shems Records",
             "description":"Producer, Engineer, Mixing, Keyboards, Co-Writer"
         },
@@ -113,7 +190,7 @@
             "year":"2019",
             "coverImgUrl":"https://f4.bcbits.com/img/a1637207226_2.jpg",
             "extUrl":"https://elisetestonemusic.bandcamp.com/album/this-is-love",
-            "description":"Producer, Engineer, Co-Writer, Keyboards"
+            "description":"Producer, Engineer, Co-Writer, Keyboards<br>Mixing (&ldquo;You Never Leave Me&rduo;)"
         },
         {
             "name":"&ldquo;Let Me Unlove You&rdquo;",
