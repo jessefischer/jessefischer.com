@@ -1,5 +1,18 @@
 [
 	{
+		"date": "2021-05-30",
+		"artist": "Elise Testone",
+		"artistUrl": "http://elisetestone.com/",
+		"venue": "Groove",
+		"venueUrl": "https://clubgroovenyc.com/",
+		"city": "New York",
+		"state": "NY",
+		"ticketsUrl": "https://clubgroovenyc.com/event.cfm?cart&id=320748",
+		"extra": "Free event, reservations recommended, two drink minimum. Indoor and outdoor seating available. Two sets."
+	},
+
+
+	{
 		"date": "2021-04-27",
 		"artist": "Jesse Fischer Quartet",
 		"artistUrl": "http://jessefischer.com",
@@ -10,6 +23,8 @@
 		"ticketsUrl": "https://www.soapboxgallery.org/events/jesse-fisher-quartet/",
 		"extra": "Online Event Only"
 	}
+
+
 
 
 ]
