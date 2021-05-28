@@ -1,0 +1,22 @@
+{
+  "name": "jessefischer.com",
+  "version": "1.0.0",
+  "description": "Jesse Fischer public site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessefischer/jessefischer.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessefischer/jessefischer.com/issues"
+  },
+  "homepage": "https://github.com/jessefischer/jessefischer.com#readme",
+  "devDependencies": {
+    "browsersync": "*"
+  }
+}

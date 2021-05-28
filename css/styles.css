@@ -417,6 +417,7 @@ div.wanderer-about {
 @media (max-width: 768px) {
 	div.wanderer-wrapper {
 		flex-direction: column;
+		text-align: center;
 	}
 
 	div.wanderer-audio-player {
@@ -432,6 +433,8 @@ div.wanderer-about {
 
 
 /* Press Quotes */
+
+
 
 article.press-quotes {
 	width: 100%;
@@ -472,12 +475,12 @@ article.press-quotes {
 }
 
 
-#press-quotes-slider {
+#press-quotes-slider, #press-quotes-static {
 	width: 60%;
 }
 
 @media (max-width: 768px) {
-	#press-quotes-slider {
+	#press-quotes-slider, #press-quotes-static {
 		width: 85%;
 	}
 
@@ -493,16 +496,16 @@ article.press-quotes {
 		height: 30px;
 	}
 
-	#press-quotes-slider div.press-quote {
+	#press-quotes-slider div.press-quote, #press-quotes-static div.press-quote {
 		font-size: 1.2em;
 	}
 }
 
-#press-quotes-slider > div {
+#press-quotes-slider > div, #press-quotes-static > div {
 	padding: 25px 10px;
 }
 
-#press-quotes-slider div.press-quote {
+#press-quotes-slider div.press-quote, #press-quotes-static div.press-quote {
 	position: relative;
 	font-size: 1.4em;
 	line-height: 1.6em;
