@@ -4,7 +4,7 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.*)(\/+)$ $1.html[END]
+RewriteRule ^(.*)$ $1.html [END]
 
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php73” package as the default “PHP” programming language.
