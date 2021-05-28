@@ -380,11 +380,11 @@ article.text a, article.connect a {
 	transition: color 0.1s;
 }
 
-article.text a:hover, article.connect a:hover {
+/*article.text a:hover, article.connect a:hover {
 	color: #cc3300;
 	transition: color 0.1s;
 }
-
+*/
 /*article.text a:hover::after, article.connect a:hover::after {
 	content: ' \2192';
 }*/
