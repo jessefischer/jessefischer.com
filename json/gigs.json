@@ -13,6 +13,30 @@
 
 
 	{
+		"date": "2021-07-02",
+		"artist": "Ajoyo",
+		"artistUrl": "https://www.ajoyomusic.com/",
+		"venue": "Saint-Omer Jaaz Festival",
+		"venueUrl": "http://www.saintomerjaazfestival.fr/",
+		"city": "Saint-Omer",
+		"state": "France",
+		"ticketsUrl": "http://www.saintomerjaazfestival.fr/",
+		"extra": "22:00"
+	},
+	{
+		"date": "2021-07-04",
+		"artist": "Ajoyo",
+		"artistUrl": "https://www.ajoyomusic.com/",
+		"venue": "Ronnie Scott's",
+		"venueUrl": "https://www.ronniescotts.co.uk/",
+		"city": "London",
+		"state": "UK",
+		"ticketsUrl": "https://www.ronniescotts.co.uk/performances/book/6543-ajoyo-feat-sarah-e-charles",
+		"extra": "Sets at 8pm &amp; 9:15pm"
+	},
+
+
+	{
 		"date": "2021-04-27",
 		"artist": "Jesse Fischer Quartet",
 		"artistUrl": "http://jessefischer.com",
