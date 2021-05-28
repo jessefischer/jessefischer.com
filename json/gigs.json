@@ -34,6 +34,65 @@
 		"ticketsUrl": "https://www.ronniescotts.co.uk/performances/book/6543-ajoyo-feat-sarah-e-charles",
 		"extra": "Sets at 8pm &amp; 9:15pm"
 	},
+	{
+		"date": "2021-07-05",
+		"artist": "Ajoyo",
+		"artistUrl": "https://www.ajoyomusic.com/",
+		"venue": "Studio de l'Ermitage",
+		"venueUrl": "https://www.studio-ermitage.com/",
+		"city": "Paris",
+		"state": "France",
+		"ticketsUrl": "https://www.studio-ermitage.com/",
+		"extra": "8pm"
+	},
+	{
+		"date": "2021-07-06",
+		"artist": "Ajoyo",
+		"artistUrl": "https://www.ajoyomusic.com/",
+		"venue": "Jazzclub Unterfahrt",
+		"venueUrl": "https://www.unterfahrt.de/",
+		"city": "München",
+		"state": "Germany",
+		"ticketsUrl": "https://www.unterfahrt.de/",
+		"extra": "7pm"
+	},
+
+	{
+		"date": "2021-07-07",
+		"artist": "Ajoyo",
+		"artistUrl": "https://www.ajoyomusic.com/",
+		"venue": "Jazzclub Unterfahrt",
+		"venueUrl": "https://www.opera-underground.com/en/the-peristyle-festival/",
+		"city": "Lyon",
+		"state": "France",
+		"ticketsUrl": "https://www.opera-underground.com/en/the-peristyle-festival/",
+		"extra": "7:30pm"
+	},
+
+	{
+		"date": "2021-07-08",
+		"artist": "Ajoyo",
+		"artistUrl": "https://www.ajoyomusic.com/",
+		"venue": "Jazzclub Unterfahrt",
+		"venueUrl": "https://www.opera-underground.com/en/the-peristyle-festival/",
+		"city": "Lyon",
+		"state": "France",
+		"ticketsUrl": "https://www.opera-underground.com/en/the-peristyle-festival/",
+		"extra": "7:30pm"
+	},
+
+	{
+		"date": "2021-07-09",
+		"artist": "Ajoyo",
+		"artistUrl": "https://www.ajoyomusic.com/",
+		"venue": "Jazzclub Unterfahrt",
+		"venueUrl": "https://www.opera-underground.com/en/the-peristyle-festival/",
+		"city": "Lyon",
+		"state": "France",
+		"ticketsUrl": "https://www.opera-underground.com/en/the-peristyle-festival/",
+		"extra": "7:30pm"
+	},
+
 
 
 	{
