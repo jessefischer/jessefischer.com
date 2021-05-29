@@ -106,6 +106,13 @@ $( function() {
 		});
 	}
 
+	/* Add click handler for expand-truncate button on EPK */
+
+	$('.expand-truncated').click( function( e ) {
+		$('.truncated').removeClass( 'truncated' );
+		$(this).hide();
+	});
+
 	/* Add click handler for mobile nav */
 
 	$("button.hamburger").click( function( e ) {
