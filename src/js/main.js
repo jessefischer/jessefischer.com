@@ -72,8 +72,8 @@ $( function() {
 
 	if ( $('script#gig-template').length ) {
 		$.getJSON( "/data/gigs.json", function( gigs ) {
-			console.log( gigs );
 			var $el = $('div.gig-wrapper');
+			console.log( $el.data( 'limit') );
 			if ( $el ) {
 				$el.hide();
 				var gigTemplate = _.template( $('script#gig-template').html() );
