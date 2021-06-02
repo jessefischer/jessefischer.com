@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jessefischer/jessefischer.com#readme",
   "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
     "browsersync": "*"
   }
 }

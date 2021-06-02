@@ -1,0 +1,127 @@
+{% include header.html %}
+
+	<article class='press-quotes' id='press-quotes'>
+
+		<div id='press-quotes-logos-container'>
+			<div class='logo-container active'><img src='img/downbeat-brick-150h.png'></div>
+			<div class='logo-container'><img src='img/nextbop-brick-150h.png'></div>
+			<div class='logo-container'><img src='img/all-about-jazz-brick-150h.png'></div>
+			<div class='logo-container'><img src='img/soul-bounce-brick-150h.png'></div>
+			<div class='logo-container'><img src='img/kcrw-brick-150h.png'></div>
+		</div>
+
+		<div id='press-quotes-slider'>
+			<div>
+				<div class='press-quote'>
+					<span class='big-left-quote'>&ldquo;</span>Jesse Fischer plays with astounding energy; creative ideas seem to issue forth from his hands to his instruments at a geyser-like rate.<span class='big-right-quote'>&rdquo;</span>
+				</div>
+				<div class='press-quote-attr'>&mdash; DownBeat</div>
+			</div>
+			<div>
+				<div class='press-quote'>
+					<span class='big-left-quote'>&ldquo;</span>Everything is so precise and always in the right place… Easily one of the best albums of the year.<span class='big-right-quote'>&rdquo;</span>
+				</div>
+				<div class='press-quote-attr'>&mdash; Nextbop</div>
+			</div>
+			<div>
+				<div class='press-quote'>
+					<span class='big-left-quote'>&ldquo;</span>Day Dreamer is a culmination of [Jesse’s] unwavering pursuit of capturing the magical groove in a soul/funk jazz atmosphere … Highly Recommended!<span class='big-right-quote'>&rdquo;</span>
+				</div>
+			<div class='press-quote-attr'>&mdash; All About Jazz</div></div>
+			<div>
+				<div class='press-quote'>
+					<span class='big-left-quote'>&ldquo;</span>Pianist/composer/producer Jesse Fischer is undoubtedly a man of many talents, but what truly makes him a standout musician is his uncanny ability to reinterpret some of our favorite songs.<span class='big-right-quote'>&rdquo;</span>
+				</div>
+			<div class='press-quote-attr'>&mdash; SoulBounce</div></div>
+			<div>
+				<div class='press-quote'>
+					<span class='big-left-quote'>&ldquo;</span>He’s always been walking the outer pathways, but with Cross Currents, Jesse truly flexes his depth and maturity of creating cathartic music in the space between joyful beauty and the embrace of the human struggle.<span class='big-right-quote'>&rdquo;</span>
+				</div>
+			<div class='press-quote-attr'>&mdash; Jeremy Sole, KCRW</div></div>
+		</div>
+
+		<div class='read-more'><a href='press'><span class='read-more black'>Read More</span></a></div>
+	</article>
+
+
+	<article class='video'>
+
+		<iframe height=1080 width=1920 src="https://www.youtube.com/embed/36NP75-ygx0?modestbranding=1&rel=0&vq=hd1080" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+
+		<div class='read-more'><a href='visuals'><span class='read-more white'>Watch More</span></a></div>
+
+	</article>
+
+
+	<article class='tour-dates text' id='tour-dates'>
+
+		<h1>tour dates</h1>
+
+
+		    <script type="text/template" id="gig-template">
+
+				<div class='gig'>
+					<div class='gig-date'>
+						<%= date.getMonthName() + ' ' + date.getUTCDate() %><br><span class='gig-date-year'><%= date.getFullYear() %></span>
+					</div>
+					<div class='gig-details'>
+						<a href='<%= artistUrl %>'><b><%= artist %></b></a><br>
+						<a href='<%= venueUrl %>'><%= venue %></a><br>
+						<%= city %>, <%= state %>
+						<% if ( typeof extra != 'undefined' ) { %>
+						<br>
+						<br>
+						<span class='gig-extra'>
+							<%= extra %>
+						</span>
+					<% } %>					</div>
+					<% if ( typeof ticketsUrl != 'undefined' ) { %>
+					<div class='gig-tickets'>
+						<a href='<%- ticketsUrl %>'>Buy Tickets</a>
+					</div>
+					<% } %>
+
+				</div>
+
+
+		      </script>
+
+		<div class='gig-wrapper'></div>
+
+		<div class='read-more'><a href='tour'><span class='read-more black'>See more</span></a></div>
+
+			<!-- 	<p>All upcoming performances are on hold due to the global Covid-19 pandemic. Please consider supporting us by purchasing a CD, LP, or download direct from our <a href='http://jessefischer.bandcamp.com/'>Bandcamp storefront</a>! Stay home and stay safe.</p> -->
+
+	</article>
+
+	<article class='discography'>
+		      <script type="text/template" id="release-template">
+
+				<div class='discog-item'>
+					<div class='release-cover-wrapper'>
+						<% if ( typeof extUrl != 'undefined' ) { %>
+							<a href='<%- extUrl %>'><div class='release-cover-play-btn'></div><img class='release-cover' src='<%- coverImgUrl %>'></a>
+						<% } else {  %>
+							<div class='release-cover-play-btn'></div><img class='release-cover' src='<%- coverImgUrl %>'>
+						<% } %>
+					</div>
+					<span class='release-artist'><%= artistName %></span><br>
+					<span class='release-name'><%= name %></span><br>
+					<span class='release-year'><%= year %></span>
+					<% if ( typeof label != 'undefined' ) { %><br>
+						<span class='release-label'><%= label %></span>
+					<% } %>
+					<% if ( typeof description != 'undefined' ) { %><br>
+					<br>
+					<span class='release-desc'><%= description %></span>
+					<% } %>
+				</div>
+
+		      </script>
+		<h1>sounds</h1>
+		<div id='artist-discog' class='discog-grid' data-limit='4'></div>
+		<div class='read-more'><a href='sounds'><span class='read-more black'>See full discography</span></a></div>
+
+	</article>
+
+{% include footer.html %}
