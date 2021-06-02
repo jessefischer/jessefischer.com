@@ -41,9 +41,9 @@ $( function() {
 
 	*/
 
-	$( ".release-cover-play-btn" ).click( function() {
-		console.log( "hello" );
-	});
+	// $( ".release-cover-play-btn" ).click( function() {
+	// 	console.log( "hello" );
+	// });
 
     
 
@@ -71,7 +71,7 @@ $( function() {
 	/* Load gig and release info from respective JSON files */
 
 	if ( $('script#gig-template').length ) {
-		$.getJSON( "json/gigs.json", function( gigs ) {
+		$.getJSON( "/data/gigs.json", function( gigs ) {
 			console.log( gigs );
 			var $el = $('div.gig-wrapper');
 			if ( $el ) {
@@ -90,7 +90,7 @@ $( function() {
 	}
 
 	if ( $('script#release-template').length ) {
-		$.getJSON( "json/releases.json", function( releases ) {
+		$.getJSON( "/data/releases.json", function( releases ) {
 			for (var category in releases) {
 				var $el = $('#' + category + '-discog');
 				if ( $el ) {

@@ -85,3 +85,82 @@
 		</div>
 
 	</header>
+
+	<article class='tour-dates text' id='tour-dates'>
+
+		<h1>tour dates</h1>
+<!-- 
+		<p>All upcoming performances are on hold due to the global Covid-19 pandemic. Please consider supporting us by purchasing a CD, LP, or download direct from our <a href='http://jessefischer.bandcamp.com/'>Bandcamp storefront</a>! Stay home and stay safe.</p> -->
+
+		    <script type="text/template" id="gig-template">
+
+				<div class='gig'>
+					<div class='gig-date'>
+						<%= date.getMonthName() + ' ' + date.getUTCDate() %><br><span class='gig-date-year'><%= date.getFullYear() %></span>
+					</div>
+					<div class='gig-details'>
+						<a href='<%= artistUrl %>'><b><%= artist %></b></a><br>
+						<a href='<%= venueUrl %>'><%= venue %></a><br>
+						<%= city %>, <%= state %>
+						<% if ( typeof extra != 'undefined' ) { %>
+						<br>
+						<br>
+						<span class='gig-extra'>
+							<%= extra %>
+						</span>
+					<% } %>					</div>
+					<% if ( typeof ticketsUrl != 'undefined' ) { %>
+					<div class='gig-tickets'>
+						<a href='<%- ticketsUrl %>'>Buy Tickets</a>
+					</div>
+					<% } %>
+
+				</div>
+
+
+		      </script>
+
+		<div class='gig-wrapper'></div>
+
+	</article>
+
+
+	<footer>
+
+		<!-- Begin Mailchimp Signup Form -->
+		<div id="mc_embed_signup">
+		<form action="https://jessefischer.us5.list-manage.com/subscribe/post?u=2d34b78dbd1dbbdeb4075c236&amp;id=3f22d6ab0d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			<h2>Let’s keep in touch!</h2>
+
+			<input type='email' value='' name='EMAIL' class='required email' id='mce-EMAIL' placeholder='email@example.com'><input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="button">
+
+			<div id="mce-responses" class="clear">
+				<div class="response" id="mce-error-response" style="display:none"></div>
+				<div class="response" id="mce-success-response" style="display:none"></div>
+			</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+		    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2d34b78dbd1dbbdeb4075c236_3f22d6ab0d" tabindex="-1" value=""></div>
+
+		</form>
+		</div>
+
+		<!--End mc_embed_signup-->
+
+		<div id='footer-social-icons'>
+			<a href='https://www.instagram.com/jessefischermusic/'><img src='/img/instagram-logo.png'></a>
+			<a href='https://www.facebook.com/jessefischermusic/'><img src='/img/facebook-logo.png'></a>
+			<a href='https://open.spotify.com/artist/53T60WwVKbpqlnZH8x9WQO?si=fgseGq5DTQqJgwLgAi07Vw'><img src='/img/spotify-logo.png'></a>
+			<a href='https://music.apple.com/us/artist/jesse-fischer/467958175'><img src='/img/apple-music-logo.svg'></a>
+			<a href='https://www.youtube.com/jessefischer'><img src='/img/youtube-logo.png'></a>
+
+		</div>
+
+		<div id='footer-copyright'>
+			<p>Designed and hand-coded by Jesse Fischer.<br>Copyright &copy; 2020, 2021 Jesse Fischer.</p>
+		</div>
+	</footer>
+
+</body>
+
+
+
+</html>

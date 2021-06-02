@@ -24,7 +24,7 @@ header {
 
 	position: relative;
 	width: 100%;
-	/*background-image: url( '../img/ld-jesse-prophet-full.jpg' );
+	/*background-image: url( '/img/ld-jesse-prophet-full.jpg' );
 	background-size: cover;
 	background-position: center center;
 	*/
@@ -45,7 +45,7 @@ div.header-cover {
 
 @media (max-width: 768px) {
 	div.header-cover {
-		background-image: url( '../img/ld-jesse-prophet-vert-768w.png' );
+		background-image: url( '/img/ld-jesse-prophet-vert-768w.png' );
 	}
 	header {
 		height: 90vh;
@@ -54,13 +54,13 @@ div.header-cover {
 
 @media (min-width: 769px ) and (max-width: 1366px) {
 	div.header-cover {
-		background-image: url( '../img/ld-jesse-prophet-1366w.jpg' );
+		background-image: url( '/img/ld-jesse-prophet-1366w.jpg' );
 	}
 }
 
 @media (min-width: 1367px ) {
 	div.header-cover {
-		background-image: url( '../img/ld-jesse-prophet-1920w.jpg' );
+		background-image: url( '/img/ld-jesse-prophet-1920w.jpg' );
 	}
 }
 
