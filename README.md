@@ -1,4 +1,4 @@
 # jessefischer.com
- Jesse Fischer public site
+ Jesse Fischer public music site
  
  Built with 11ty
