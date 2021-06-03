@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "dist/img/uploads"
+media_folder: "src/img/uploads"
 public_folder: "/img/uploads"
 
 collections:
@@ -11,7 +11,7 @@ collections:
     files:
       - label: "Press Quotes"
         name: "press-quotes"
-        file: "dist/data/press-quotes.json"
+        file: "data/press-quotes.json"
         fields:
           - {label: Quote, name: quote, widget: string}
           - {label: Source, name: source, widget: string}
