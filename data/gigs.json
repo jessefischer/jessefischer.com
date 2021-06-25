@@ -1,16 +1,4 @@
 [
-	{
-		"date": "2021-05-30",
-		"artist": "Elise Testone",
-		"artistUrl": "http://elisetestone.com/",
-		"venue": "Groove",
-		"venueUrl": "https://clubgroovenyc.com/",
-		"city": "New York",
-		"state": "NY",
-		"ticketsUrl": "https://clubgroovenyc.com/event.cfm?cart&id=320748",
-		"extra": "Free event, reservations recommended, two drink minimum. Indoor and outdoor seating available. Two sets."
-	},
-
 
 	{
 		"date": "2021-07-02",
@@ -23,17 +11,7 @@
 		"ticketsUrl": "http://www.saintomerjaazfestival.fr/",
 		"extra": "22:00"
 	},
-	{
-		"date": "2021-07-04",
-		"artist": "Ajoyo",
-		"artistUrl": "https://www.ajoyomusic.com/",
-		"venue": "Ronnie Scott's",
-		"venueUrl": "https://www.ronniescotts.co.uk/",
-		"city": "London",
-		"state": "UK",
-		"ticketsUrl": "https://www.ronniescotts.co.uk/performances/book/6543-ajoyo-feat-sarah-e-charles",
-		"extra": "Sets at 8pm &amp; 9:15pm"
-	},
+
 	{
 		"date": "2021-07-05",
 		"artist": "Ajoyo",
@@ -51,29 +29,17 @@
 		"artistUrl": "https://www.ajoyomusic.com/",
 		"venue": "Jazzclub Unterfahrt",
 		"venueUrl": "https://www.unterfahrt.de/",
-		"city": "München",
+		"city": "Munich",
 		"state": "Germany",
 		"ticketsUrl": "https://www.unterfahrt.de/",
 		"extra": "7pm"
 	},
 
 	{
-		"date": "2021-07-07",
-		"artist": "Ajoyo",
-		"artistUrl": "https://www.ajoyomusic.com/",
-		"venue": "Peristyle de l'Opera",
-		"venueUrl": "https://www.opera-underground.com/en/the-peristyle-festival/",
-		"city": "Lyon",
-		"state": "France",
-		"ticketsUrl": "https://www.opera-underground.com/en/the-peristyle-festival/",
-		"extra": "7:30pm"
-	},
-
-	{
 		"date": "2021-07-08",
 		"artist": "Ajoyo",
 		"artistUrl": "https://www.ajoyomusic.com/",
-		"venue": "Peristyle de l'Opera",
+		"venue": "Péristyle de l'Opéra",
 		"venueUrl": "https://www.opera-underground.com/en/the-peristyle-festival/",
 		"city": "Lyon",
 		"state": "France",
@@ -85,7 +51,19 @@
 		"date": "2021-07-09",
 		"artist": "Ajoyo",
 		"artistUrl": "https://www.ajoyomusic.com/",
-		"venue": "Peristyle de l'Opera",
+		"venue": "Péristyle de l'Opéra",
+		"venueUrl": "https://www.opera-underground.com/en/the-peristyle-festival/",
+		"city": "Lyon",
+		"state": "France",
+		"ticketsUrl": "https://www.opera-underground.com/en/the-peristyle-festival/",
+		"extra": "7:30pm"
+	},
+
+	{
+		"date": "2021-07-10",
+		"artist": "Ajoyo",
+		"artistUrl": "https://www.ajoyomusic.com/",
+		"venue": "Péristyle de l'Opéra",
 		"venueUrl": "https://www.opera-underground.com/en/the-peristyle-festival/",
 		"city": "Lyon",
 		"state": "France",
@@ -94,18 +72,18 @@
 	},
 
 
-
 	{
-		"date": "2021-04-27",
-		"artist": "Jesse Fischer Quartet",
-		"artistUrl": "http://jessefischer.com",
-		"venue": "Soapbox Gallery",
-		"venueUrl": "https://www.soapboxgallery.org/events/jesse-fisher-quartet/",
-		"city": "Brooklyn",
-		"state": "NY",
-		"ticketsUrl": "https://www.soapboxgallery.org/events/jesse-fisher-quartet/",
-		"extra": "Online Event Only"
+		"date": "2021-08-21",
+		"artist": "Charisa Rouse",
+		"artistUrl": "https://www.theviolindiva.com/",
+		"venue": "Newark Museum of Art",
+		"venueUrl": "https://www.newarkmuseumart.org/AITG/ViolinDiva",
+		"city": "Newark",
+		"state": "NJ",
+		"ticketsUrl": "https://www.eventbrite.com/e/concert-charisa-rouse-the-violin-diva-tickets-154472000913",
+		"extra": "7pm"
 	}
+
 
 
 
