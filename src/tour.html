@@ -1,40 +1,49 @@
+---
+data: gigs
+---
 {% include header.html %}
 
 	<article class='tour-dates text' id='tour-dates'>
 
+
 		<h1>tour dates</h1>
-<!-- 
-		<p>All upcoming performances are on hold due to the global Covid-19 pandemic. Please consider supporting us by purchasing a CD, LP, or download direct from our <a href='http://jessefischer.bandcamp.com/'>Bandcamp storefront</a>! Stay home and stay safe.</p> -->
 
-		    <script type="text/template" id="gig-template">
+		<div class='gig-wrapper'>
 
-				<div class='gig'>
+		{% for gig in gigs %}
+
+				<div class='gig' data-date='{{gig.date}}'>
 					<div class='gig-date'>
-						<%= date.getMonthName() + ' ' + date.getUTCDate() %><br><span class='gig-date-year'><%= date.getFullYear() %></span>
+						{{ gig.date | date: "%b %d" | downcase }}<br><span class='gig-date-year'>{{ gig.date | date: "%Y" }}</span>
 					</div>
 					<div class='gig-details'>
-						<a href='<%= artistUrl %>'><b><%= artist %></b></a><br>
-						<a href='<%= venueUrl %>'><%= venue %></a><br>
-						<%= city %>, <%= state %>
-						<% if ( typeof extra != 'undefined' ) { %>
-						<br>
-						<br>
-						<span class='gig-extra'>
-							<%= extra %>
-						</span>
-					<% } %>					</div>
-					<% if ( typeof ticketsUrl != 'undefined' ) { %>
-					<div class='gig-tickets'>
-						<a href='<%- ticketsUrl %>'>Buy Tickets</a>
+						<a href='{{ gig.artistUrl }}'><b>{{ gig.artist }}</b></a><br>
+						<a href='{{ gig.venueUrl }}'>{{ gig.venue }}</a><br>
+						{{ gig.city }}, {{ gig.state }}
+						{% if gig.extra -%}
+							<br>
+							<br>
+							<span class='gig-extra'>
+								{{ gig.extra }}
+							</span>
+						{% endif %}
 					</div>
-					<% } %>
-
+					{% if gig.ticketsUrl -%}
+						<div class='gig-tickets'>
+							<a href='{{ gig.ticketsUrl }}'>Buy Tickets</a>
+						</div>
+					{% endif %}
 				</div>
 
+		{% else %}
 
-		      </script>
+			<p>No upcoming gigs</p>
 
-		<div class='gig-wrapper'></div>
+		{% endfor %}
+
+		</div>
+
+
 
 	</article>
 

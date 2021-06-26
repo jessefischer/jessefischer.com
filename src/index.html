@@ -1,3 +1,8 @@
+---
+data: gigs, releases
+gigLimit: 3
+artistReleaseLimit: 4
+---
 {% include header.html %}
 
 	<article class='press-quotes' id='press-quotes'>
@@ -57,69 +62,78 @@
 
 		<h1>tour dates</h1>
 
+		<div class='gig-wrapper'>
 
-		    <script type="text/template" id="gig-template">
+		{% assign gigsTruncated = gigs | slice: 0,gigLimit %}
+		{% for gig in gigsTruncated %}
 
 				<div class='gig'>
 					<div class='gig-date'>
-						<%= date.getMonthName() + ' ' + date.getUTCDate() %><br><span class='gig-date-year'><%= date.getFullYear() %></span>
+						{{ gig.date | date: "%b %d" | downcase }}<br><span class='gig-date-year'>{{ gig.date | date: "%Y" }}</span>
 					</div>
 					<div class='gig-details'>
-						<a href='<%= artistUrl %>'><b><%= artist %></b></a><br>
-						<a href='<%= venueUrl %>'><%= venue %></a><br>
-						<%= city %>, <%= state %>
-						<% if ( typeof extra != 'undefined' ) { %>
-						<br>
-						<br>
-						<span class='gig-extra'>
-							<%= extra %>
-						</span>
-					<% } %>					</div>
-					<% if ( typeof ticketsUrl != 'undefined' ) { %>
-					<div class='gig-tickets'>
-						<a href='<%- ticketsUrl %>'>Buy Tickets</a>
+						<a href='{{ gig.artistUrl }}'><b>{{ gig.artist }}</b></a><br>
+						<a href='{{ gig.venueUrl }}'>{{ gig.venue }}</a><br>
+						{{ gig.city }}, {{ gig.state }}
+						{% if gig.extra -%}
+							<br>
+							<br>
+							<span class='gig-extra'>
+								{{ gig.extra }}
+							</span>
+						{% endif %}
 					</div>
-					<% } %>
-
+					{% if gig.ticketsUrl -%}
+						<div class='gig-tickets'>
+							<a href='{{ gig.ticketsUrl }}'>Buy Tickets</a>
+						</div>
+					{% endif %}
 				</div>
 
+		{% else %}
 
-		      </script>
+			<p>No upcoming gigs.</p>
 
-		<div class='gig-wrapper' data-limit="5"></div>
+		{% endfor %}
+
+		</div>
 
 		<div class='read-more'><a href='tour'><span class='read-more black'>See more</span></a></div>
 
-			<!-- 	<p>All upcoming performances are on hold due to the global Covid-19 pandemic. Please consider supporting us by purchasing a CD, LP, or download direct from our <a href='http://jessefischer.bandcamp.com/'>Bandcamp storefront</a>! Stay home and stay safe.</p> -->
 
 	</article>
 
 	<article class='discography'>
-		      <script type="text/template" id="release-template">
 
-				<div class='discog-item'>
-					<div class='release-cover-wrapper'>
-						<% if ( typeof extUrl != 'undefined' ) { %>
-							<a href='<%- extUrl %>'><div class='release-cover-play-btn'></div><img class='release-cover' src='<%- coverImgUrl %>'></a>
-						<% } else {  %>
-							<div class='release-cover-play-btn'></div><img class='release-cover' src='<%- coverImgUrl %>'>
-						<% } %>
-					</div>
-					<span class='release-artist'><%= artistName %></span><br>
-					<span class='release-name'><%= name %></span><br>
-					<span class='release-year'><%= year %></span>
-					<% if ( typeof label != 'undefined' ) { %><br>
-						<span class='release-label'><%= label %></span>
-					<% } %>
-					<% if ( typeof description != 'undefined' ) { %><br>
-					<br>
-					<span class='release-desc'><%= description %></span>
-					<% } %>
-				</div>
-
-		      </script>
 		<h1>sounds</h1>
-		<div id='artist-discog' class='discog-grid' data-limit='4'></div>
+
+		<div id='artist-discog' class='discog-grid'>
+
+			{% assign artistReleasesTruncated = releases.artist | slice: 0, artistReleaseLimit %}
+			{% for release in artistReleasesTruncated %}
+			<div class='discog-item'>
+				<div class='release-cover-wrapper'>
+					{% if release.extUrl -%}
+						<a href='{{release.extUrl}}'><div class='release-cover-play-btn'></div><img class='release-cover' src='{{release.coverImgUrl}}'></a>
+					{% else %}
+						<div class='release-cover-play-btn'></div><img class='release-cover' src='{{release.coverImgUrl}}'>
+					{% endif %}
+				</div>
+				<span class='release-artist'>{{release.artistName}}</span><br>
+				<span class='release-name'>{{release.name}}</span><br>
+				<span class='release-year'>{{release.year}}</span>
+				{% if release.label -%}<br>
+					<span class='release-label'>{{release.label}}</span>
+				{% endif %}
+				{% if release.description %}<br>
+					<br>
+					<span class='release-desc'>{{release.description}}</span>
+				{% endif %}
+			</div>
+			{% endfor %}
+
+		</div>
+		</div>
 		<div class='read-more'><a href='sounds'><span class='read-more black'>See full discography</span></a></div>
 
 	</article>

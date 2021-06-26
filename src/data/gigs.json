@@ -1,7 +1,6 @@
 [
-
 	{
-		"date": "2021-07-02",
+		"date": "July 2, 2021",
 		"artist": "Ajoyo",
 		"artistUrl": "https://www.ajoyomusic.com/",
 		"venue": "Saint-Omer Jaaz Festival",
@@ -11,9 +10,8 @@
 		"ticketsUrl": "http://www.saintomerjaazfestival.fr/",
 		"extra": "22:00"
 	},
-
 	{
-		"date": "2021-07-05",
+		"date": "July 5, 2021",
 		"artist": "Ajoyo",
 		"artistUrl": "https://www.ajoyomusic.com/",
 		"venue": "Studio de l'Ermitage",
@@ -24,7 +22,7 @@
 		"extra": "8pm"
 	},
 	{
-		"date": "2021-07-06",
+		"date": "July 6, 2021",
 		"artist": "Ajoyo",
 		"artistUrl": "https://www.ajoyomusic.com/",
 		"venue": "Jazzclub Unterfahrt",
@@ -34,9 +32,8 @@
 		"ticketsUrl": "https://www.unterfahrt.de/",
 		"extra": "7pm"
 	},
-
 	{
-		"date": "2021-07-08",
+		"date": "July 8, 2021",
 		"artist": "Ajoyo",
 		"artistUrl": "https://www.ajoyomusic.com/",
 		"venue": "Péristyle de l'Opéra",
@@ -46,9 +43,8 @@
 		"ticketsUrl": "https://www.opera-underground.com/en/the-peristyle-festival/",
 		"extra": "7:30pm"
 	},
-
 	{
-		"date": "2021-07-09",
+		"date": "July 9, 2021",
 		"artist": "Ajoyo",
 		"artistUrl": "https://www.ajoyomusic.com/",
 		"venue": "Péristyle de l'Opéra",
@@ -58,9 +54,8 @@
 		"ticketsUrl": "https://www.opera-underground.com/en/the-peristyle-festival/",
 		"extra": "7:30pm"
 	},
-
 	{
-		"date": "2021-07-10",
+		"date": "July 10, 2021",
 		"artist": "Ajoyo",
 		"artistUrl": "https://www.ajoyomusic.com/",
 		"venue": "Péristyle de l'Opéra",
@@ -70,10 +65,8 @@
 		"ticketsUrl": "https://www.opera-underground.com/en/the-peristyle-festival/",
 		"extra": "7:30pm"
 	},
-
-
 	{
-		"date": "2021-08-21",
+		"date": "August 21, 2021",
 		"artist": "Charisa Rouse",
 		"artistUrl": "https://www.theviolindiva.com/",
 		"venue": "Newark Museum of Art",
@@ -83,9 +76,4 @@
 		"ticketsUrl": "https://www.eventbrite.com/e/concert-charisa-rouse-the-violin-diva-tickets-154472000913",
 		"extra": "7pm"
 	}
-
-
-
-
-
 ]

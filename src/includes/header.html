@@ -11,7 +11,6 @@
 	<link rel="stylesheet" type="text/css" href="/css/slick-theme.css"/>
 	<link rel="stylesheet" href="/css/hamburgers.css">
 	<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
     <script type="text/javascript" src="/js/slick.min.js"></script>
     <script type="text/javascript" src="/js/smoothscroll.min.js"></script>
     
@@ -50,18 +49,18 @@
 				</span>
 			</button>  
 		
-			<span class='nav-link' id='nav-about'><a href='/about/'>about</a></span>
-			<span class='nav-link' id='nav-tour'><a href='/tour/'>tour</a></span>
-			<span class='nav-link' id='nav-sounds'><a href='/sounds/'>sounds</a></span>
-			<span class='nav-link' id='nav-visuals'><a href='/visuals/'>visuals</a></span>
-			<span class='nav-link' id='nav-shop'><a href='https://jessefischer.bandcamp.com/'>shop</a></span>
-			<span class='nav-link' id='nav-connect'><a href='/connect/'>connect</a></span>
+			<span class='nav-link{% if page.fileSlug == "about" %} active{% endif %}' id='nav-about'><a href='/about/'>about</a></span>
+			<span class='nav-link{% if page.fileSlug == "tour" %} active{% endif %}' id='nav-tour'><a href='/tour/'>tour</a></span>
+			<span class='nav-link{% if page.fileSlug == "sounds" %} active{% endif %}' id='nav-sounds'><a href='/sounds/'>sounds</a></span>
+			<span class='nav-link{% if page.fileSlug == "visuals" %} active{% endif %}' id='nav-visuals'><a href='/visuals/'>visuals</a></span>
+			<span class='nav-link{% if page.fileSlug == "shop" %} active{% endif %}' id='nav-shop'><a href='https://jessefischer.bandcamp.com/'>shop</a></span>
+			<span class='nav-link{% if page.fileSlug == "connect" %} active{% endif %}' id='nav-connect'><a href='/connect/'>connect</a></span>
 		</nav>
 
 
 		<div id='header-three-roles'>
 
-			<div id='main-title'>Jesse Fischer</div>
+			<div id='main-title'><a href='/'>Jesse Fischer</a></div>
 
 			<div class='header-three-roles-wrapper' id='header-pianist-wrapper'><a href='#'>
 				<div class='header-role' id='header-pianist'>pianist.</div>

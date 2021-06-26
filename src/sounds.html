@@ -1,43 +1,95 @@
+---
+data: releases
+---
 {% include header.html %}
 
 	<article class='discography'>
 		<h1>artist sounds</h1>
 
-		      <script type="text/template" id="release-template">
+		<div id='artist-discog' class='discog-grid'>
 
-				<div class='discog-item'>
-					<div class='release-cover-wrapper'>
-						<% if ( typeof extUrl != 'undefined' ) { %>
-							<a href='<%- extUrl %>'><div class='release-cover-play-btn'></div><img class='release-cover' src='<%- coverImgUrl %>'></a>
-						<% } else {  %>
-							<div class='release-cover-play-btn'></div><img class='release-cover' src='<%- coverImgUrl %>'>
-						<% } %>
-					</div>
-					<span class='release-artist'><%= artistName %></span><br>
-					<span class='release-name'><%= name %></span><br>
-					<span class='release-year'><%= year %></span>
-					<% if ( typeof label != 'undefined' ) { %><br>
-						<span class='release-label'><%= label %></span>
-					<% } %>
-					<% if ( typeof description != 'undefined' ) { %><br>
-					<br>
-					<span class='release-desc'><%= description %></span>
-					<% } %>
+			{% for release in releases.artist %}
+			<div class='discog-item'>
+				<div class='release-cover-wrapper'>
+					{% if release.extUrl -%}
+						<a href='{{release.extUrl}}'><div class='release-cover-play-btn'></div><img class='release-cover' src='{{release.coverImgUrl}}'></a>
+					{% else %}
+						<div class='release-cover-play-btn'></div><img class='release-cover' src='{{release.coverImgUrl}}'>
+					{% endif %}
 				</div>
+				<span class='release-artist'>{{release.artistName}}</span><br>
+				<span class='release-name'>{{release.name}}</span><br>
+				<span class='release-year'>{{release.year}}</span>
+				{% if release.label -%}<br>
+					<span class='release-label'>{{release.label}}</span>
+				{% endif %}
+				{% if release.description %}<br>
+					<br>
+					<span class='release-desc'>{{release.description}}</span>
+				{% endif %}
+			</div>
+			{% endfor %}
 
-		      </script>
-
-		<div id='artist-discog' class='discog-grid'></div>
+		</div>
 	</article>
 
 	<article class='discography'>
 		<h1>remix sounds</h1>
-		<div id='remix-discog' class='discog-grid'></div>
+		<div id='remix-discog' class='discog-grid'>
+			
+			{% for release in releases.remix %}
+			<div class='discog-item'>
+				<div class='release-cover-wrapper'>
+					{% if release.extUrl -%}
+						<a href='{{release.extUrl}}'><div class='release-cover-play-btn'></div><img class='release-cover' src='{{release.coverImgUrl}}'></a>
+					{% else %}
+						<div class='release-cover-play-btn'></div><img class='release-cover' src='{{release.coverImgUrl}}'>
+					{% endif %}
+				</div>
+				<span class='release-artist'>{{release.artistName}}</span><br>
+				<span class='release-name'>{{release.name}}</span><br>
+				<span class='release-year'>{{release.year}}</span>
+				{% if release.label -%}<br>
+					<span class='release-label'>{{release.label}}</span>
+				{% endif %}
+				{% if release.description %}<br>
+					<br>
+					<span class='release-desc'>{{release.description}}</span>
+				{% endif %}
+			</div>
+			{% endfor %}
+
+
+		</div>
 	</article>
 
 	<article class='discography'>
 		<h1>producer/engineer/sideman sounds</h1>
-		<div id='sideman-discog' class='discog-grid'></div>
+		<div id='sideman-discog' class='discog-grid'>
+			
+			{% for release in releases.sideman %}
+			<div class='discog-item'>
+				<div class='release-cover-wrapper'>
+					{% if release.extUrl -%}
+						<a href='{{release.extUrl}}'><div class='release-cover-play-btn'></div><img class='release-cover' src='{{release.coverImgUrl}}'></a>
+					{% else %}
+						<div class='release-cover-play-btn'></div><img class='release-cover' src='{{release.coverImgUrl}}'>
+					{% endif %}
+				</div>
+				<span class='release-artist'>{{release.artistName}}</span><br>
+				<span class='release-name'>{{release.name}}</span><br>
+				<span class='release-year'>{{release.year}}</span>
+				{% if release.label -%}<br>
+					<span class='release-label'>{{release.label}}</span>
+				{% endif %}
+				{% if release.description %}<br>
+					<br>
+					<span class='release-desc'>{{release.description}}</span>
+				{% endif %}
+			</div>
+			{% endfor %}
+
+		</div>
 	</article>
 
 {% include footer.html %}
