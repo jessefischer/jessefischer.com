@@ -90,6 +90,17 @@
         }
     ],
     "sideman":[
+       {
+            "name":"&ldquo;Tell Me&rdquo;",
+            "artistName":"NOBA",
+            "year":"2021",
+            "coverImgUrl":"https://i.scdn.co/image/ab67616d0000b2738d705d119dab411ce6a0ffaa",
+            "extUrl":"https://open.spotify.com/track/75LcWU5ownWtv30IwrPDbb?si=47bb699b570b4001",
+            "description":"Production, Co-writing, Engineering, Mixing, Keyboards, Bass, Percussion"
+        },
+
+
+
         {
             "name":"&ldquo;Dangerous Energy&rdquo;",
             "artistName":"Ve.Nika",
