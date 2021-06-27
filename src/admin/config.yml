@@ -27,4 +27,11 @@ collections:
             name: "gigs"
             widget: "list"
             fields:
+              - {label: Date, name: date, widget: string}
               - {label: Artist, name: artist, widget: string}
+              - {label: "Artist URL", name: artistUrl, widget: string}
+              - {label: Venue, name: venue, widget: string}
+              - {label: "Venue URL", name: venueUrl, widget: string}
+              - {label: City, name: city, widget: string}
+              - {label: "Tickets URL", name: ticketsURL, widget: string}
+              - {label: Extra, name: extra, widget: markdown}
