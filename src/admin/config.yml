@@ -6,8 +6,8 @@ media_folder: "src/img/uploads"
 public_folder: "/img/uploads"
 
 collections:
-  - label: "Site Data"
-    name: "data"
+  - label: "Content"
+    name: "content"
     files:
       - label: "Press Quotes"
         name: "press-quotes"
@@ -26,12 +26,13 @@ collections:
           - label: "Gigs"
             name: "gigs"
             widget: "list"
+            summary: "{{fields.date}} - {{artist}} @ {{venue}}"
             fields:
               - {label: Date, name: date, widget: string}
               - {label: Artist, name: artist, widget: string}
-              - {label: "Artist URL", name: artistUrl, widget: string}
+              - {label: "Artist URL", name: artistUrl, widget: string, required: false}
               - {label: Venue, name: venue, widget: string}
-              - {label: "Venue URL", name: venueUrl, widget: string}
+              - {label: "Venue URL", name: venueUrl, widget: string, required: false}
               - {label: City, name: city, widget: string}
-              - {label: "Tickets URL", name: ticketsURL, widget: string}
-              - {label: Extra, name: extra, widget: markdown}
+              - {label: "Tickets URL", name: ticketsURL, widget: string, required: false}
+              - {label: Extra, name: extra, widget: markdown, required: false}
