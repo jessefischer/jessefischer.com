@@ -64,7 +64,7 @@ artistReleaseLimit: 4
 
 		<div class='gig-wrapper'>
 
-		{% assign gigsTruncated = gigs | slice: 0,gigLimit %}
+		{% assign gigsTruncated = gigs.gigs | slice: 0,gigLimit %}
 		{% for gig in gigsTruncated %}
 
 				<div class='gig'>
