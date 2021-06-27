@@ -6,22 +6,22 @@ media_folder: "src/img/uploads"
 public_folder: "/img/uploads"
 
 collections:
-  - name: "data"
-    label: "Data"
-    files:
-      - label: "Press Quotes"
-        name: "press-quotes"
-        file: "src/data/press-quotes.json"
+  - label: "Press Quotes"
+    name: "press-quotes"
+    file: "src/data/press-quotes.json"
+    fields:
+      - label: "Quotes"
+        name: "quotes"
+        widget: "list"
         fields:
-          - label: "Quotes"
-            name: "quotes"
-            widget: "list"
-            fields:
-              - {label: Quote, name: quote, widget: markdown}
-              - {label: Source, name: source, widget: string}
+          - {label: Quote, name: quote, widget: markdown}
+          - {label: Source, name: source, widget: string}
+  - label: "Gigs"
+    name: "gigs"
+    file: "src/data/gigs.json"
+    fields:
       - label: "Gigs"
         name: "gigs"
-        file: "src/data/gigs.json"
         widget: "list"
         fields:
           - {label: Date, name: date, widget: string}
