@@ -11,7 +11,7 @@ collections:
     files:
       - label: "Press Quotes"
         name: "press-quotes"
-        file: "data/press-quotes.json"
+        file: "src/data/press-quotes.json"
         fields:
           - label: "Quotes"
             name: "quotes"
@@ -19,3 +19,16 @@ collections:
             fields:
               - {label: Quote, name: quote, widget: markdown}
               - {label: Source, name: source, widget: string}
+      - label: "Gigs"
+        name: "gigs"
+        file: "src/data/gigs.json"
+        widget: "list"
+        fields:
+          - {label: Date, name: date, widget: string}
+          - {label: Artist, name: artist, widget: string}
+          - {label: "Artist URL", name: artistUrl, widget: string}
+          - {label: Venue, name: venue, widget: string}
+          - {label: "Venue URL", name: venueUrl, widget: string}
+          - {label: City, name: city, widget: string}
+          - {label: "Tickets URL", name: ticketsURL, widget: string}
+          - {label: Extra, name: extra, widget: string}
