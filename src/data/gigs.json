@@ -11,6 +11,16 @@
       "venue": "Newark Museum of Art",
       "extra": "7pm",
       "state": "NJ"
+    },
+    {
+      "date": "August 29, 2021",
+      "artist": "Jesse Fischer",
+      "artistUrl": "https://jessefischer.com/",
+      "venue": "An Die Musik",
+      "venueUrl": "https://andiemusiklive.com/",
+      "city": "Baltimore, MD",
+      "extra": "In-person & streaming",
+      "ticketsURL": "https://andiemusiklive.com/"
     }
   ]
 }
