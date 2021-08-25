@@ -19,6 +19,16 @@
       "city": "Pittsburgh, PA",
       "ticketsURL": "https://www.conalmapgh.com/",
       "extra": "2 sets"
+    },
+    {
+      "date": "October 1, 2021",
+      "artist": "Jesse Fischer",
+      "artistUrl": "https://jessefischer.com/",
+      "venue": "Bop Stop",
+      "venueUrl": "https://www.themusicsettlement.org/event-rentals/",
+      "city": "Cleveland, OH",
+      "ticketsURL": "https://www.themusicsettlement.org/calendar/2021/10/01/jesse-fischer-bop-stop",
+      "extra": "7:30pm - 9:30pm"
     }
   ]
 }
