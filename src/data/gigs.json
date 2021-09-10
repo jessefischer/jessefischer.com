@@ -42,6 +42,16 @@
       "city": "Cincinnati",
       "extra": "7pm - 9pm",
       "state": "OH"
+    },
+    {
+      "date": "September 19, 2021",
+      "artist": "Brinae Ali",
+      "artistUrl": "https://www.instagram.com/brinaeali/?hl=en",
+      "venue": "Little Island Dance Festival",
+      "venueUrl": "https://littleisland.org/dance-festival/",
+      "city": "New York",
+      "state": "NY",
+      "extra": "Brinae Ali presents: Dizzy Spellz"
     }
   ]
 }
