@@ -34,5 +34,6 @@ collections:
               - {label: Venue, name: venue, widget: string}
               - {label: "Venue URL", name: venueUrl, widget: string, required: false}
               - {label: City, name: city, widget: string}
+              - {label: State, name: state, widget: string}              
               - {label: "Tickets URL", name: ticketsURL, widget: string, required: false}
               - {label: Extra, name: extra, widget: markdown, required: false}
