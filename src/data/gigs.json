@@ -1,34 +1,37 @@
 {
   "gigs": [
     {
-      "date": "September 29, 2021",
-      "artist": "Jesse Fischer",
-      "artistUrl": "https://jessefischer.com/",
-      "venue": "An Die Musik",
       "venueUrl": "https://andiemusiklive.com/",
-      "city": "Baltimore, MD",
+      "artist": "Jesse Fischer",
+      "artistUrl": "https://jessefischer.com/",
+      "ticketsURL": "https://andiemusiklive.com/",
+      "city": "Baltimore",
+      "date": "September 29, 2021",
+      "venue": "An Die Musik",
       "extra": "In-person & streaming",
-      "ticketsURL": "https://andiemusiklive.com/"
+      "state": "MD"
     },
     {
-      "date": "September 30, 2021",
-      "artist": "Jesse Fischer",
-      "artistUrl": "https://jessefischer.com/",
-      "venue": "Con Alma",
       "venueUrl": "https://www.conalmapgh.com/",
-      "city": "Pittsburgh, PA",
-      "ticketsURL": "https://www.conalmapgh.com/",
-      "extra": "2 sets"
-    },
-    {
-      "date": "October 1, 2021",
       "artist": "Jesse Fischer",
       "artistUrl": "https://jessefischer.com/",
-      "venue": "Bop Stop",
+      "ticketsURL": "https://www.conalmapgh.com/",
+      "city": "Pittsburgh",
+      "date": "September 30, 2021",
+      "venue": "Con Alma",
+      "extra": "2 sets",
+      "state": "PA"
+    },
+    {
       "venueUrl": "https://www.themusicsettlement.org/event-rentals/",
-      "city": "Cleveland, OH",
+      "artist": "Jesse Fischer",
+      "artistUrl": "https://jessefischer.com/",
       "ticketsURL": "https://www.themusicsettlement.org/calendar/2021/10/01/jesse-fischer-bop-stop",
-      "extra": "7:30pm - 9:30pm"
+      "city": "Cleveland",
+      "date": "October 1, 2021",
+      "venue": "Bop Stop",
+      "extra": "7:30pm - 9:30pm",
+      "state": "OH"
     },
     {
       "date": "October 3, 2021",
@@ -37,7 +40,8 @@
       "venueUrl": "https://nostalgiaotr.com/",
       "venue": "Nostalgia Wine & Jazz Lounge",
       "city": "Cincinnati",
-      "extra": "7pm - 9pm"
+      "extra": "7pm - 9pm",
+      "state": "OH"
     }
   ]
 }
