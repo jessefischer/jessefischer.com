@@ -29,6 +29,14 @@
       "city": "Cleveland, OH",
       "ticketsURL": "https://www.themusicsettlement.org/calendar/2021/10/01/jesse-fischer-bop-stop",
       "extra": "7:30pm - 9:30pm"
+    },
+    {
+      "date": "October 3, 2021",
+      "artist": "Jesse Fischer",
+      "artistUrl": "https://jessefischer.com",
+      "venueUrl": "https://nostalgiaotr.com/",
+      "venue": "Nostalgia Wine & Jazz Lounge",
+      "city": "Cincinnati"
     }
   ]
 }
