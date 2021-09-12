@@ -52,6 +52,17 @@
       "city": "Cincinnati",
       "extra": "7pm - 9pm",
       "state": "OH"
+    },
+    {
+      "venueUrl": "https://chelseatableandstage.venuetix.com/",
+      "artist": "Jesse Fischer",
+      "artistUrl": "https://jessefischer.com",
+      "ticketsURL": "https://chelseatableandstage.venuetix.com/show/details/pMrQRs9k0fPRtZmbkbTc/1634425200000",
+      "city": "New York",
+      "date": "10/16/21",
+      "venue": "Chelsea Table & Stage",
+      "extra": "7pm",
+      "state": "NY"
     }
   ]
 }
