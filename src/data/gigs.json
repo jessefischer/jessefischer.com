@@ -1,50 +1,6 @@
 {
   "gigs": [
     {
-      "venueUrl": "https://andiemusiklive.com/",
-      "artist": "Jesse Fischer",
-      "artistUrl": "https://jessefischer.com/",
-      "ticketsURL": "https://andiemusiklive.com/",
-      "city": "Baltimore",
-      "date": "September 29, 2021",
-      "venue": "An Die Musik",
-      "extra": "In-person & streaming",
-      "state": "MD"
-    },
-    {
-      "venueUrl": "https://www.conalmapgh.com/",
-      "artist": "Jesse Fischer",
-      "artistUrl": "https://jessefischer.com/",
-      "ticketsURL": "https://www.conalmapgh.com/downtown-events/2021/9/30/jesse-fischer-quartet-nyc",
-      "city": "Pittsburgh",
-      "date": "September 30, 2021",
-      "venue": "Con Alma (Downtown)",
-      "extra": "2 sets",
-      "state": "PA"
-    },
-    {
-      "venueUrl": "https://www.themusicsettlement.org/event-rentals/",
-      "artist": "Jesse Fischer",
-      "artistUrl": "https://jessefischer.com/",
-      "ticketsURL": "https://www.themusicsettlement.org/calendar/2021/10/01/jesse-fischer-bop-stop",
-      "city": "Cleveland",
-      "date": "October 1, 2021",
-      "venue": "Bop Stop",
-      "extra": "7:30pm - 9:30pm",
-      "state": "OH"
-    },
-    {
-      "venueUrl": "https://nostalgiaotr.com/",
-      "artist": "Jesse Fischer",
-      "artistUrl": "https://jessefischer.com",
-      "ticketsURL": "https://www.eventbrite.com/e/jesse-fischer-presents-resilience-tickets-174745256767",
-      "city": "Cincinnati",
-      "date": "October 3, 2021",
-      "venue": "Nostalgia Wine & Jazz Lounge",
-      "extra": "7pm - 9pm",
-      "state": "OH"
-    },
-    {
       "venueUrl": "https://chelseatableandstage.venuetix.com/",
       "artist": "Jesse Fischer",
       "artistUrl": "https://jessefischer.com",
@@ -54,6 +10,37 @@
       "venue": "Chelsea Table & Stage",
       "extra": "7pm",
       "state": "NY"
+    },
+    {
+      "date": "11/2/21",
+      "artist": "Ajoyo",
+      "artistUrl": "https://www.ajoyomusic.com/",
+      "venue": "Joe's Pub",
+      "venueUrl": "https://publictheater.org/programs/joes-pub/",
+      "city": "New York",
+      "state": "NY",
+      "extra": "Habibi Festival curated by Yacine Boularès\n\nDoors 7pm"
+    },
+    {
+      "venueUrl": "https://www.canaryclubnyc.com/",
+      "artist": "Jesse Fischer",
+      "artistUrl": "https://jessefischer.com",
+      "ticketsURL": "https://resy.com/cities/ny/canary-club",
+      "city": "New York",
+      "date": "11/6/21",
+      "venue": "Canary Club",
+      "extra": "7:30pm - 9:30pm",
+      "state": "NY"
+    },
+    {
+      "date": "11/18/21",
+      "artist": "Jesse Fischer",
+      "artistUrl": "https://jessefischer.com",
+      "venue": "Now & Then",
+      "venueUrl": "https://www.nowandthennyc.com/",
+      "city": "Brooklyn",
+      "state": "NY",
+      "extra": "Mobetta Thursdays (curated by Maurice \"Mobetta\" Brown)\n\n8pm-10pm"
     }
   ]
 }
