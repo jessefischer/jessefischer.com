@@ -22,17 +22,6 @@
       "extra": "Habibi Festival curated by Yacine Boularès<br>\n\nDoors 7pm"
     },
     {
-      "venueUrl": "https://www.canaryclubnyc.com/",
-      "artist": "Jesse Fischer",
-      "artistUrl": "https://jessefischer.com",
-      "ticketsURL": "https://resy.com/cities/ny/canary-club",
-      "city": "New York",
-      "date": "11/6/21",
-      "venue": "Canary Club",
-      "extra": "7:30pm - 9:30pm",
-      "state": "NY"
-    },
-    {
       "date": "11/18/21",
       "artist": "Jesse Fischer",
       "artistUrl": "https://jessefischer.com",
@@ -41,6 +30,17 @@
       "city": "Brooklyn",
       "state": "NY",
       "extra": "Mobetta Thursdays (curated by Maurice \"Mobetta\" Brown)<br>\n\n8pm-10pm"
+    },
+    {
+      "venueUrl": "https://www.canaryclubnyc.com/",
+      "artist": "Jesse Fischer",
+      "artistUrl": "https://jessefischer.com",
+      "ticketsURL": "https://resy.com/cities/ny/canary-club",
+      "city": "New York",
+      "date": "12/4/21",
+      "venue": "Canary Club",
+      "extra": "7:30pm - 9:30pm",
+      "state": "NY"
     }
   ]
 }
