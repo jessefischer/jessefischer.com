@@ -1,17 +1,6 @@
 {
   "gigs": [
     {
-      "venueUrl": "https://chelseatableandstage.venuetix.com/",
-      "artist": "Jesse Fischer",
-      "artistUrl": "https://jessefischer.com",
-      "ticketsURL": "https://chelseatableandstage.venuetix.com/show/details/pMrQRs9k0fPRtZmbkbTc/1634425200000",
-      "city": "New York",
-      "date": "10/16/21",
-      "venue": "Chelsea Table & Stage",
-      "extra": "7pm",
-      "state": "NY"
-    },
-    {
       "date": "11/2/21",
       "artist": "Ajoyo",
       "artistUrl": "https://www.ajoyomusic.com/",
@@ -40,6 +29,17 @@
       "date": "12/4/21",
       "venue": "Canary Club",
       "extra": "7:30pm - 9:30pm",
+      "state": "NY"
+    },
+    {
+      "venueUrl": "https://www.guggenheim.org/",
+      "artist": "Zane Rodulfo",
+      "artistUrl": "http://www.zanerodulfo.com/",
+      "ticketsURL": "https://www.guggenheim.org/event/saturday-on-the-house",
+      "city": "New York",
+      "date": "10/23/21",
+      "venue": "Guggenheim Museum",
+      "extra": "12pm-5pm",
       "state": "NY"
     }
   ]
