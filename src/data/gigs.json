@@ -1,6 +1,17 @@
 {
   "gigs": [
     {
+      "venueUrl": "https://www.guggenheim.org/",
+      "artist": "Zane Rodulfo",
+      "artistUrl": "http://www.zanerodulfo.com/",
+      "ticketsURL": "https://www.guggenheim.org/event/saturday-on-the-house",
+      "city": "New York",
+      "date": "10/23/21",
+      "venue": "Guggenheim Museum",
+      "extra": "12pm-5pm",
+      "state": "NY"
+    },
+    {
       "date": "11/2/21",
       "artist": "Ajoyo",
       "artistUrl": "https://www.ajoyomusic.com/",
@@ -11,16 +22,6 @@
       "extra": "Habibi Festival curated by Yacine Boularès<br>\n\nDoors 7pm"
     },
     {
-      "date": "11/18/21",
-      "artist": "Jesse Fischer",
-      "artistUrl": "https://jessefischer.com",
-      "venue": "Now & Then",
-      "venueUrl": "https://www.nowandthennyc.com/",
-      "city": "Brooklyn",
-      "state": "NY",
-      "extra": "Mobetta Thursdays (curated by Maurice \"Mobetta\" Brown)<br>\n\n8pm-10pm"
-    },
-    {
       "venueUrl": "https://www.canaryclubnyc.com/",
       "artist": "Jesse Fischer",
       "artistUrl": "https://jessefischer.com",
@@ -29,17 +30,6 @@
       "date": "12/4/21",
       "venue": "Canary Club",
       "extra": "7:30pm - 9:30pm",
-      "state": "NY"
-    },
-    {
-      "venueUrl": "https://www.guggenheim.org/",
-      "artist": "Zane Rodulfo",
-      "artistUrl": "http://www.zanerodulfo.com/",
-      "ticketsURL": "https://www.guggenheim.org/event/saturday-on-the-house",
-      "city": "New York",
-      "date": "10/23/21",
-      "venue": "Guggenheim Museum",
-      "extra": "12pm-5pm",
       "state": "NY"
     }
   ]
