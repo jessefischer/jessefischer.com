@@ -12,14 +12,26 @@
       "state": "NY"
     },
     {
-      "date": "11/2/21",
+      "venueUrl": "https://publictheater.org/programs/joes-pub/",
       "artist": "Ajoyo",
       "artistUrl": "https://www.ajoyomusic.com/",
-      "venue": "Joe's Pub",
-      "venueUrl": "https://publictheater.org/programs/joes-pub/",
+      "ticketsURL": "https://publictheater.org/productions/joes-pub/2021/y/yacine-boulares--the-habibi-festival-band-with-opener-haig-papazian/",
       "city": "New York",
-      "state": "NY",
-      "extra": "Habibi Festival curated by Yacine Boularès<br>\n\nDoors 7pm"
+      "date": "11/2/21",
+      "venue": "Joe's Pub",
+      "extra": "Habibi Festival curated by Yacine Boularès<br>\n\nWith special guest Kinan Azmeh\n\nDoors 7pm",
+      "state": "NY"
+    },
+    {
+      "venueUrl": "https://publictheater.org/programs/joes-pub/",
+      "artist": "Ajoyo",
+      "artistUrl": "https://ajoyomusic.com/",
+      "ticketsURL": "https://publictheater.org/productions/joes-pub/2021/y/yacine-boulares--the-habibi-festival-band-with-opener-haig-papazian/",
+      "city": "New York",
+      "date": "11/5/21",
+      "venue": "Joe's Pub",
+      "extra": "Habibi Festival curated by Yacine Boularès<br>\n\nWith special guest Esraa Warda\n\nDoors 7pm",
+      "state": "NY"
     },
     {
       "venueUrl": "https://www.canaryclubnyc.com/",
@@ -31,6 +43,16 @@
       "venue": "Canary Club",
       "extra": "7:30pm - 9:30pm",
       "state": "NY"
+    },
+    {
+      "date": "11/7/21",
+      "artist": "Plasticity",
+      "venue": "Rockwood Music Hall",
+      "venueUrl": "https://rockwoodmusichall.com/",
+      "city": "New York",
+      "state": "NY",
+      "ticketsURL": "https://rockwoodmusichall.com/event/plasticity-2/",
+      "extra": "9:30 Jonathan Scales Fourchestra\n\n10:30 Plasticity\n\nStage 2"
     }
   ]
 }
