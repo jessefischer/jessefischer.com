@@ -1,34 +1,58 @@
 {
   "gigs": [
     {
-      "date": "September 29, 2021",
-      "artist": "Jesse Fischer",
-      "artistUrl": "https://jessefischer.com/",
-      "venue": "An Die Musik",
-      "venueUrl": "https://andiemusiklive.com/",
-      "city": "Baltimore, MD",
-      "extra": "In-person & streaming",
-      "ticketsURL": "https://andiemusiklive.com/"
+      "venueUrl": "https://www.guggenheim.org/",
+      "artist": "Zane Rodulfo",
+      "artistUrl": "http://www.zanerodulfo.com/",
+      "ticketsURL": "https://www.guggenheim.org/event/saturday-on-the-house",
+      "city": "New York",
+      "date": "10/23/21",
+      "venue": "Guggenheim Museum",
+      "extra": "12pm-5pm",
+      "state": "NY"
     },
     {
-      "date": "September 30, 2021",
-      "artist": "Jesse Fischer",
-      "artistUrl": "https://jessefischer.com/",
-      "venue": "Con Alma",
-      "venueUrl": "https://www.conalmapgh.com/",
-      "city": "Pittsburgh, PA",
-      "ticketsURL": "https://www.conalmapgh.com/",
-      "extra": "2 sets"
+      "venueUrl": "https://publictheater.org/programs/joes-pub/",
+      "artist": "Ajoyo",
+      "artistUrl": "https://www.ajoyomusic.com/",
+      "ticketsURL": "https://publictheater.org/productions/joes-pub/2021/y/yacine-boulares--the-habibi-festival-band-with-opener-haig-papazian/",
+      "city": "New York",
+      "date": "11/2/21",
+      "venue": "Joe's Pub",
+      "extra": "Habibi Festival curated by Yacine Boularès<br>\n\nWith special guest Kinan Azmeh\n\nDoors 7pm",
+      "state": "NY"
     },
     {
-      "date": "October 1, 2021",
+      "venueUrl": "https://publictheater.org/programs/joes-pub/",
+      "artist": "Ajoyo",
+      "artistUrl": "https://ajoyomusic.com/",
+      "ticketsURL": "https://publictheater.org/productions/joes-pub/2021/y/yacine-boulares--the-habibi-festival-band-with-opener-haig-papazian/",
+      "city": "New York",
+      "date": "11/5/21",
+      "venue": "Joe's Pub",
+      "extra": "Habibi Festival curated by Yacine Boularès<br>\n\nWith special guest Esraa Warda\n\nDoors 7pm",
+      "state": "NY"
+    },
+    {
+      "venueUrl": "https://www.canaryclubnyc.com/",
       "artist": "Jesse Fischer",
-      "artistUrl": "https://jessefischer.com/",
-      "venue": "Bop Stop",
-      "venueUrl": "https://www.themusicsettlement.org/event-rentals/",
-      "city": "Cleveland, OH",
-      "ticketsURL": "https://www.themusicsettlement.org/calendar/2021/10/01/jesse-fischer-bop-stop",
-      "extra": "7:30pm - 9:30pm"
+      "artistUrl": "https://jessefischer.com",
+      "ticketsURL": "https://resy.com/cities/ny/canary-club",
+      "city": "New York",
+      "date": "12/4/21",
+      "venue": "Canary Club",
+      "extra": "7:30pm - 9:30pm",
+      "state": "NY"
+    },
+    {
+      "date": "11/7/21",
+      "artist": "Plasticity",
+      "venue": "Rockwood Music Hall",
+      "venueUrl": "https://rockwoodmusichall.com/",
+      "city": "New York",
+      "state": "NY",
+      "ticketsURL": "https://rockwoodmusichall.com/event/plasticity-2/",
+      "extra": "9:30 Jonathan Scales Fourchestra\n\n10:30 Plasticity\n\nStage 2"
     }
   ]
 }
