@@ -34,6 +34,16 @@
       "state": "NY"
     },
     {
+      "date": "11/7/21",
+      "artist": "Plasticity",
+      "venue": "Rockwood Music Hall",
+      "venueUrl": "https://rockwoodmusichall.com/",
+      "city": "New York",
+      "state": "NY",
+      "ticketsURL": "https://rockwoodmusichall.com/event/plasticity-2/",
+      "extra": "9:30pm Jonathan Scales Fourchestra<br>\n\n10:30pm Plasticity<br>\n\nStage 2"
+    },
+    {
       "venueUrl": "https://www.canaryclubnyc.com/",
       "artist": "Jesse Fischer",
       "artistUrl": "https://jessefischer.com",
@@ -43,16 +53,6 @@
       "venue": "Canary Club",
       "extra": "7:30pm - 9:30pm",
       "state": "NY"
-    },
-    {
-      "date": "11/7/21",
-      "artist": "Plasticity",
-      "venue": "Rockwood Music Hall",
-      "venueUrl": "https://rockwoodmusichall.com/",
-      "city": "New York",
-      "state": "NY",
-      "ticketsURL": "https://rockwoodmusichall.com/event/plasticity-2/",
-      "extra": "9:30pm Jonathan Scales Fourchestra<br>\n\n10:30pm Plasticity<br>\n\nStage 2"
     }
   ]
 }
