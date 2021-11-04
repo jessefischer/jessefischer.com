@@ -19,7 +19,7 @@
       "city": "New York",
       "date": "11/2/21",
       "venue": "Joe's Pub",
-      "extra": "Habibi Festival curated by Yacine Boularès<br>\n\nWith special guest Kinan Azmeh\n\nDoors 7pm",
+      "extra": "Habibi Festival curated by Yacine Boularès<br>\n\nWith special guest Kinan Azmeh<br>\n\nDoors 7pm",
       "state": "NY"
     },
     {
@@ -30,7 +30,7 @@
       "city": "New York",
       "date": "11/5/21",
       "venue": "Joe's Pub",
-      "extra": "Habibi Festival curated by Yacine Boularès<br>\n\nWith special guest Esraa Warda\n\nDoors 7pm",
+      "extra": "Habibi Festival curated by Yacine Boularès<br>\n\nWith special guest Esraa Warda<br>\n\nDoors 7pm",
       "state": "NY"
     },
     {
@@ -52,7 +52,7 @@
       "city": "New York",
       "state": "NY",
       "ticketsURL": "https://rockwoodmusichall.com/event/plasticity-2/",
-      "extra": "9:30 Jonathan Scales Fourchestra\n\n10:30 Plasticity\n\nStage 2"
+      "extra": "9:30 Jonathan Scales Fourchestra<br>\n\n10:30 Plasticity<br>\n\nStage 2"
     }
   ]
 }
