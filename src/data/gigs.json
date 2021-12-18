@@ -10,6 +10,17 @@
       "venue": "Canary Club",
       "extra": "7:30pm - 9:30pm",
       "state": "NY"
+    },
+    {
+      "venueUrl": "https://www.wildbirdsbk.com/",
+      "artist": "Jesse Fischer",
+      "artistUrl": "https://jessefischer.com",
+      "ticketsURL": "https://www.wildbirdsbk.com/calendar/jesse-fischer",
+      "city": "Brooklyn",
+      "date": "12/21/21",
+      "venue": "Wild Birds",
+      "extra": "9:30-11:30pm\n\nSuggested donation $15",
+      "state": "NY"
     }
   ]
 }
