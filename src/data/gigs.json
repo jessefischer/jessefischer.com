@@ -1,14 +1,14 @@
 {
   "gigs": [
     {
-      "venueUrl": "https://www.wildbirdsbk.com/",
-      "artist": "Jesse Fischer",
-      "artistUrl": "https://jessefischer.com",
-      "ticketsURL": "https://www.wildbirdsbk.com/calendar/jesse-fischer",
-      "city": "Brooklyn",
-      "date": "1/29/22",
-      "venue": "Wild Birds",
-      "extra": "7pm-9pm\n\nSuggested donation $15",
+      "venueUrl": "https://rockwoodmusichall.com/",
+      "artist": "Plasticity",
+      "artistUrl": "https://ignaciorivasbixio.bandcamp.com/album/plasticity",
+      "ticketsURL": "https://www.seetickets.us/event/Plasticity/468079",
+      "city": "New York",
+      "date": "3/8/2022",
+      "venue": "Rockwood Music Hall",
+      "extra": "10pm, $12, Stage 2",
       "state": "NY"
     }
   ]
