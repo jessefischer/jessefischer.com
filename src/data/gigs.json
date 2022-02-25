@@ -62,6 +62,17 @@
       "venueUrl": "https://www.theiridium.com/",
       "city": "New York",
       "state": "NY"
+    },
+    {
+      "venueUrl": "https://www.ronniescotts.co.uk/",
+      "artist": "Jesse Fischer",
+      "artistUrl": "https://jessefischer.com",
+      "ticketsURL": "https://www.ronniescotts.co.uk/performances/view/7188-jesse-fischer",
+      "city": "London",
+      "date": "4/27/2022",
+      "venue": "Ronnie Scott's",
+      "extra": "Doors 20:30, £20.00 - £35.00, w/ Jason Brown (drums) & Karl Abel (bass)",
+      "state": "UK"
     }
   ]
 }
