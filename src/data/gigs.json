@@ -43,6 +43,16 @@
       "venue": "Mr. Tipple's",
       "extra": "6:30pm-10:30pm, $12\n\nw/ Yacine Boularès, Joshua Crumbly, Efa Etoroma, Jr.",
       "state": "CA"
+    },
+    {
+      "date": "3/25/2022",
+      "artist": "Jesse Fischer",
+      "artistUrl": "https://jessefischer.com",
+      "venue": "Just Jazz Concert Series / Mr. Musichead Gallery",
+      "venueUrl": "https://mrmusichead.com/",
+      "city": "Los Angeles",
+      "state": "CA",
+      "extra": "w/ Yacine Boularès, Joshua Crumbly, Efa Etoroma, Jr."
     }
   ]
 }
