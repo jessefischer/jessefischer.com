@@ -53,6 +53,15 @@
       "city": "Los Angeles",
       "state": "CA",
       "extra": "w/ Yacine Boularès, Joshua Crumbly, Efa Etoroma, Jr."
+    },
+    {
+      "date": "4/1/2022",
+      "artist": "Ajoyo",
+      "artistUrl": "https://www.ajoyomusic.com/",
+      "venue": "The Iridium",
+      "venueUrl": "https://www.theiridium.com/",
+      "city": "New York",
+      "state": "NY"
     }
   ]
 }
