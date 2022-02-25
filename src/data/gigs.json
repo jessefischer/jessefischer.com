@@ -1,6 +1,17 @@
 {
   "gigs": [
     {
+      "venueUrl": "https://www.elsewherebrooklyn.com/",
+      "artist": "Charlotte Dos Santos",
+      "artistUrl": "https://charlottedossantos.com/",
+      "ticketsURL": "https://dice.fm/event/o5nmg-charlotte-dos-santos-melanie-charles-4th-mar-elsewhere-zone-one-new-york-tickets",
+      "city": "Brooklyn",
+      "date": "3/4/2022",
+      "venue": "Elsewhere",
+      "extra": "7pm, $20, with Melanie Charles opening",
+      "state": "NY"
+    },
+    {
       "venueUrl": "https://rockwoodmusichall.com/",
       "artist": "Plasticity",
       "artistUrl": "https://ignaciorivasbixio.bandcamp.com/album/plasticity",
@@ -12,15 +23,15 @@
       "state": "NY"
     },
     {
-      "venueUrl": "https://www.elsewherebrooklyn.com/",
-      "artist": "Charlotte Dos Santos",
-      "artistUrl": "https://charlottedossantos.com/",
-      "ticketsURL": "https://dice.fm/event/o5nmg-charlotte-dos-santos-melanie-charles-4th-mar-elsewhere-zone-one-new-york-tickets",
-      "city": "Brooklyn",
-      "date": "3/4/2022",
-      "venue": "Elsewhere",
-      "extra": "7pm, $20, with Melanie Charles opening",
-      "state": "NY"
+      "venueUrl": "https://the1905.org/",
+      "artist": "Jesse Fischer",
+      "artistUrl": "https://jessefischer.com",
+      "ticketsURL": "https://the1905.org/",
+      "city": "Portland",
+      "date": "3/23/2022",
+      "venue": "The 1905",
+      "extra": "7pm, $30\n\nw/ Yacine Boularès, Joshua Crumbly, Efa Etoroma, Jr.",
+      "state": "OR"
     }
   ]
 }
