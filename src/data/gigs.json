@@ -32,6 +32,17 @@
       "venue": "The 1905",
       "extra": "7pm, $30\n\nw/ Yacine Boularès, Joshua Crumbly, Efa Etoroma, Jr.",
       "state": "OR"
+    },
+    {
+      "venueUrl": "https://mrtipplessf.com/",
+      "artist": "Jesse Fischer",
+      "artistUrl": "https://jessefischer.com",
+      "ticketsURL": "https://mrtipplessf.com/calendar/the-jesse-fischer-quartet/",
+      "city": "San Francisco",
+      "date": "3/24/2022",
+      "venue": "Mr. Tipple's",
+      "extra": "6:30pm-10:30pm, $12\n\nw/ Yacine Boularès, Joshua Crumbly, Efa Etoroma, Jr.",
+      "state": "CA"
     }
   ]
 }
