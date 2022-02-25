@@ -10,6 +10,17 @@
       "venue": "Rockwood Music Hall",
       "extra": "10pm, $12, Stage 2",
       "state": "NY"
+    },
+    {
+      "venueUrl": "https://www.elsewherebrooklyn.com/",
+      "artist": "Charlotte Dos Santos",
+      "artistUrl": "https://charlottedossantos.com/",
+      "ticketsURL": "https://dice.fm/event/o5nmg-charlotte-dos-santos-melanie-charles-4th-mar-elsewhere-zone-one-new-york-tickets",
+      "city": "Brooklyn",
+      "date": "3/4/2022",
+      "venue": "Elsewhere",
+      "extra": "7pm, $20, with Melanie Charles opening",
+      "state": "NY"
     }
   ]
 }
