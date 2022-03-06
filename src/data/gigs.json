@@ -1,17 +1,6 @@
 {
   "gigs": [
     {
-      "venueUrl": "https://www.elsewherebrooklyn.com/",
-      "artist": "Charlotte Dos Santos",
-      "artistUrl": "https://charlottedossantos.com/",
-      "ticketsURL": "https://dice.fm/event/o5nmg-charlotte-dos-santos-melanie-charles-4th-mar-elsewhere-zone-one-new-york-tickets",
-      "city": "Brooklyn",
-      "date": "3/4/2022",
-      "venue": "Elsewhere",
-      "extra": "7pm, $20, with Melanie Charles opening",
-      "state": "NY"
-    },
-    {
       "venueUrl": "https://rockwoodmusichall.com/",
       "artist": "Plasticity",
       "artistUrl": "https://ignaciorivasbixio.bandcamp.com/album/plasticity",
@@ -45,14 +34,15 @@
       "state": "CA"
     },
     {
-      "date": "3/25/2022",
+      "venueUrl": "https://mrmusichead.com/",
       "artist": "Jesse Fischer",
       "artistUrl": "https://jessefischer.com",
-      "venue": "Just Jazz Concert Series / Mr. Musichead Gallery",
-      "venueUrl": "https://mrmusichead.com/",
+      "ticketsURL": "https://www.eventbrite.com/e/just-jazz-live-concert-series-presents-jesse-fischer-tickets-289020918347",
       "city": "Los Angeles",
-      "state": "CA",
-      "extra": "w/ Yacine Boularès, Joshua Crumbly, Efa Etoroma, Jr."
+      "date": "3/25/2022",
+      "venue": "Just Jazz Concert Series / Mr. Musichead Gallery",
+      "extra": "Doors 7pm, Showtime 7:30pm, w/ Yacine Boularès, Joshua Crumbly, Efa Etoroma, Jr.",
+      "state": "CA"
     },
     {
       "date": "4/1/2022",
