@@ -1,17 +1,6 @@
 {
   "gigs": [
     {
-      "venueUrl": "https://rockwoodmusichall.com/",
-      "artist": "Plasticity",
-      "artistUrl": "https://ignaciorivasbixio.bandcamp.com/album/plasticity",
-      "ticketsURL": "https://www.seetickets.us/event/Plasticity/468079",
-      "city": "New York",
-      "date": "3/8/2022",
-      "venue": "Rockwood Music Hall",
-      "extra": "10pm, $12, Stage 2",
-      "state": "NY"
-    },
-    {
       "venueUrl": "https://the1905.org/",
       "artist": "Jesse Fischer",
       "artistUrl": "https://jessefischer.com",
