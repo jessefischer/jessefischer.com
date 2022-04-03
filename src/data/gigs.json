@@ -1,48 +1,6 @@
 {
   "gigs": [
     {
-      "venueUrl": "https://the1905.org/",
-      "artist": "Jesse Fischer",
-      "artistUrl": "https://jessefischer.com",
-      "ticketsURL": "https://the1905.org/",
-      "city": "Portland",
-      "date": "3/23/2022",
-      "venue": "The 1905",
-      "extra": "7pm & 9pm, $30\n\nw/ Yacine Boularès, Joshua Crumbly, Efa Etoroma, Jr.",
-      "state": "OR"
-    },
-    {
-      "venueUrl": "https://mrtipplessf.com/",
-      "artist": "Jesse Fischer",
-      "artistUrl": "https://jessefischer.com",
-      "ticketsURL": "https://mrtipplessf.com/calendar/the-jesse-fischer-quartet/",
-      "city": "San Francisco",
-      "date": "3/24/2022",
-      "venue": "Mr. Tipple's",
-      "extra": "7:30pm & 9:30pm, $12\n\nw/ Yacine Boularès, Joshua Crumbly, Efa Etoroma, Jr.",
-      "state": "CA"
-    },
-    {
-      "venueUrl": "https://mrmusichead.com/",
-      "artist": "Jesse Fischer",
-      "artistUrl": "https://jessefischer.com",
-      "ticketsURL": "https://www.eventbrite.com/e/just-jazz-live-concert-series-presents-jesse-fischer-tickets-289020918347",
-      "city": "Los Angeles",
-      "date": "3/25/2022",
-      "venue": "Just Jazz Concert Series / Mr. Musichead Gallery",
-      "extra": "Doors 7pm, Showtime 7:30pm, w/ Yacine Boularès, Joshua Crumbly, Efa Etoroma, Jr.",
-      "state": "CA"
-    },
-    {
-      "date": "4/1/2022",
-      "artist": "Ajoyo",
-      "artistUrl": "https://www.ajoyomusic.com/",
-      "venue": "The Iridium",
-      "venueUrl": "https://www.theiridium.com/",
-      "city": "New York",
-      "state": "NY"
-    },
-    {
       "venueUrl": "https://www.ronniescotts.co.uk/",
       "artist": "Jesse Fischer",
       "artistUrl": "https://jessefischer.com",
