@@ -52,6 +52,17 @@
       "venue": "Ronnie Scott's",
       "extra": "Doors 20:30, £20.00 - £35.00, w/ Jason Brown (drums) & Karl Abel (bass)",
       "state": "UK"
+    },
+    {
+      "venueUrl": "https://www.sunset-sunside.com/",
+      "artist": "Jesse Fischer",
+      "artistUrl": "https://jessefischer.com",
+      "ticketsURL": "https://www.sunset-sunside.com/2022/4/artiste/4064/8283/",
+      "city": "Paris",
+      "date": "4/28/2022",
+      "venue": "Sunset/Sunside",
+      "extra": "Tickets €15–25, Doors 7pm, Showtime 8pm & 9:30pm, Sunset stage\n\nw/ Yacine Boularès, Karl Abel, & Jason Brown",
+      "state": "France"
     }
   ]
 }
