@@ -63,6 +63,17 @@
       "venue": "Sunset/Sunside",
       "extra": "Tickets €15–25, Doors 7pm, Showtime 8pm & 9:30pm, Sunset stage\n\nw/ Yacine Boularès, Karl Abel, & Jason Brown",
       "state": "France"
+    },
+    {
+      "venueUrl": "https://www.unterfahrt.de/",
+      "artist": "Jesse Fischer",
+      "artistUrl": "https://jessefischer.com/",
+      "ticketsURL": "https://www.unterfahrt.de/programm-detail.php?dateID=8793",
+      "city": "Münich",
+      "date": "4/29/2022",
+      "venue": "Unterfahrt",
+      "extra": "Tickets €18 - €24, Doors 19:30pm, Showtime 20:30pm & 22:00pm\n\nw/ Yacine Boularès, Karl Abel, & Jason Brown",
+      "state": "Germany"
     }
   ]
 }
