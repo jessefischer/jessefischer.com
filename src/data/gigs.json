@@ -42,6 +42,17 @@
       "city": "Brooklyn",
       "state": "NY",
       "extra": "10:45pm - 11:30pm"
+    },
+    {
+      "venueUrl": "https://www.bricartsmedia.org/bric-celebrate-brooklyn-festival",
+      "artist": "Charlotte Dos Santos",
+      "artistUrl": "https://charlottedossantos.com/",
+      "ticketsURL": "https://www.bricartsmedia.org/events-performances/bric-celebrate-brooklyn-festival/chicano-batman-charlotte-dos-santos",
+      "city": "Brooklyn",
+      "date": "7/16/22",
+      "venue": "Celebrate Brooklyn",
+      "extra": "7:30pm, free",
+      "state": "NY"
     }
   ]
 }
