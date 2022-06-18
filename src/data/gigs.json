@@ -1,6 +1,17 @@
 {
   "gigs": [
     {
+      "venueUrl": "https://www.canaryclubnyc.com/",
+      "artist": "Jesse Fischer & Yacine Boularès",
+      "artistUrl": "https://jessefischer.com",
+      "ticketsURL": "https://www.canaryclubnyc.com/calendar/0618",
+      "city": "New York",
+      "date": "6/18/22",
+      "venue": "Canary Club",
+      "extra": "7:30 – 9:30, $20\n\nw/ Jongkuk Kim & Liam Cashin",
+      "state": "NY"
+    },
+    {
       "venueUrl": "https://www.bricartsmedia.org/bric-celebrate-brooklyn-festival",
       "artist": "Charlotte Dos Santos",
       "artistUrl": "https://charlottedossantos.com/",
@@ -12,14 +23,14 @@
       "state": "NY"
     },
     {
-      "venueUrl": "https://www.canaryclubnyc.com/",
-      "artist": "Jesse Fischer & Yacine Boularès",
-      "artistUrl": "https://jessefischer.com",
-      "ticketsURL": "https://www.canaryclubnyc.com/calendar/0618",
-      "city": "New York",
-      "date": "6/18/22",
-      "venue": "Canary Club",
-      "extra": "7:30 – 9:30, $20\n\nw/ Jongkuk Kim & Liam Cashin",
+      "venueUrl": "https://www.saratoga.com/summer/jazz-festival/",
+      "artist": "Dara Starr Tucker",
+      "artistUrl": "https://www.daratucker.net/",
+      "ticketsURL": "https://spac.org/calendar/calendar-of-events/?view=list&gen=29&utm_source=mannix_saratoga.com&utm_medium=microsite&utm_campaign=website",
+      "city": "Saratoga Springs",
+      "date": "6/26/22",
+      "venue": "Freihofer's Saratoga Jazz Festival",
+      "extra": "3pm\n\nw/ Jordan Peters, Greg Bryant, and Diego Ramirez",
       "state": "NY"
     }
   ]
