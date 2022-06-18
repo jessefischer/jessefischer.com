@@ -1,60 +1,6 @@
 {
   "gigs": [
     {
-      "venueUrl": "https://www.ronniescotts.co.uk/",
-      "artist": "Jesse Fischer",
-      "artistUrl": "https://jessefischer.com",
-      "ticketsURL": "https://www.ronniescotts.co.uk/performances/view/7188-jesse-fischer",
-      "city": "London",
-      "date": "4/27/2022",
-      "venue": "Ronnie Scott's",
-      "extra": "Doors 20:30, Showtime 21:00, Tickets £20.00 - £35.00\n\nw/ Yacine Boularès, Karl Abel, & Jason Brown",
-      "state": "UK"
-    },
-    {
-      "venueUrl": "https://www.sunset-sunside.com/",
-      "artist": "Jesse Fischer",
-      "artistUrl": "https://jessefischer.com",
-      "ticketsURL": "https://www.sunset-sunside.com/2022/4/artiste/4064/8283/",
-      "city": "Paris",
-      "date": "4/28/2022",
-      "venue": "Sunset/Sunside",
-      "extra": "Tickets €15–25, Doors 19:00, Showtime 20:00 & 21:30, Sunset stage\n\nw/ Yacine Boularès, Karl Abel, & Jason Brown",
-      "state": "France"
-    },
-    {
-      "venueUrl": "https://www.unterfahrt.de/",
-      "artist": "Jesse Fischer",
-      "artistUrl": "https://jessefischer.com/",
-      "ticketsURL": "https://www.unterfahrt.de/programm-detail.php?dateID=8793",
-      "city": "Münich",
-      "date": "4/29/2022",
-      "venue": "Unterfahrt",
-      "extra": "Tickets €18 - €24, Doors 19:30, Showtime 20:30 & 22:00\n\nw/ Yacine Boularès, Karl Abel, & Jason Brown",
-      "state": "Germany"
-    },
-    {
-      "venueUrl": "https://www.piqueniquerecordings.com/take-two",
-      "artist": "Ajoyo",
-      "artistUrl": "https://ajoyomusic.com",
-      "ticketsURL": "https://dice.fm/event/r58or-take-two-ajoyo-x-shakara-21st-may-tba-location-new-york-new-york-tickets?lng=en-US",
-      "city": "Brooklyn",
-      "date": "5/21/2022",
-      "venue": "Take Two",
-      "extra": "6:00pm, $25",
-      "state": "NY"
-    },
-    {
-      "date": "5/21/2022",
-      "artist": "Ajoyo",
-      "artistUrl": "https://ajoyomusic.com",
-      "venue": "Brooklyn Library - Night of Ideas",
-      "venueUrl": "https://www.bklynlibrary.org/support/volunteer/night-of-philosophy",
-      "city": "Brooklyn",
-      "state": "NY",
-      "extra": "10:45pm - 11:30pm"
-    },
-    {
       "venueUrl": "https://www.bricartsmedia.org/bric-celebrate-brooklyn-festival",
       "artist": "Charlotte Dos Santos",
       "artistUrl": "https://charlottedossantos.com/",
@@ -63,6 +9,17 @@
       "date": "7/16/22",
       "venue": "Celebrate Brooklyn",
       "extra": "7:30pm, free",
+      "state": "NY"
+    },
+    {
+      "venueUrl": "https://www.canaryclubnyc.com/",
+      "artist": "Jesse Fischer & Yacine Boularès",
+      "artistUrl": "https://jessefischer.com",
+      "ticketsURL": "https://www.canaryclubnyc.com/calendar/0618",
+      "city": "New York",
+      "date": "6/18/22",
+      "venue": "Canary Club",
+      "extra": "7:30 – 9:30, $20\n\nw/ Jongkuk Kim & Liam Cashin",
       "state": "NY"
     }
   ]
