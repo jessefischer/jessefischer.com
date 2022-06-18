@@ -23,6 +23,15 @@
       "state": "NY"
     },
     {
+      "date": "6/29/22",
+      "artist": "Plasticity",
+      "venue": "Rockwood Music Hall",
+      "venueUrl": "https://rockwoodmusichall.com/",
+      "city": "New York",
+      "state": "NY",
+      "extra": "10pm\n\nw/ J. Hoard, Panagiotis Andreou, and Ignacio Rivas-Bixio"
+    },
+    {
       "venueUrl": "https://www.bricartsmedia.org/bric-celebrate-brooklyn-festival",
       "artist": "Charlotte Dos Santos",
       "artistUrl": "https://charlottedossantos.com/",
@@ -32,15 +41,6 @@
       "venue": "Celebrate Brooklyn",
       "extra": "7:30pm, free",
       "state": "NY"
-    },
-    {
-      "date": "6/29/22",
-      "artist": "Plasticity",
-      "venue": "Rockwood Music Hall",
-      "venueUrl": "https://rockwoodmusichall.com/",
-      "city": "New York",
-      "state": "NY",
-      "extra": "10pm\n\nw/ J. Hoard, Panagiotis Andreou, and Ignacio Rivas-Bixio"
     }
   ]
 }
