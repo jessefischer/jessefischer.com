@@ -20,6 +20,15 @@
       "venue": "Celebrate Brooklyn",
       "extra": "Doors 6:30/Show 7:30pm, supporting Chicano Batman, free",
       "state": "NY"
+    },
+    {
+      "date": "8/26/22",
+      "artist": "Habibi Festival w/ Esraa Warda, Firas Zreik, Yacine Boularès, and AJOYO",
+      "venue": "Bryant Park",
+      "venueUrl": "https://bryantpark.org/calendar/event/habibi-festival-with-joes-pub/2022-08-26",
+      "city": "New York",
+      "state": "NY",
+      "extra": "7pm, free admission, bring your own blanket or chair"
     }
   ]
 }
