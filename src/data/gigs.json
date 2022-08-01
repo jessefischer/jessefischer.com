@@ -1,27 +1,6 @@
 {
   "gigs": [
     {
-      "date": "7/11/22",
-      "artist": "Jesse Fischer",
-      "artistUrl": "https://jessefischer.com",
-      "venue": "Wild Birds",
-      "venueUrl": "https://www.wildbirdsbk.com/",
-      "city": "Brooklyn",
-      "state": "NY",
-      "extra": "9-11pm, $15 suggested donation, w/ Yacine Boularès, Kyle Miles, & Jongkuk Kim"
-    },
-    {
-      "venueUrl": "https://www.bricartsmedia.org/events-performances/bric-celebrate-brooklyn-festival/chicano-batman-charlotte-dos-santos",
-      "artist": "Charlotte Dos Santos",
-      "artistUrl": "https://charlottedossantos.com/",
-      "ticketsURL": "",
-      "city": "Brooklyn",
-      "date": "7/16/22",
-      "venue": "Celebrate Brooklyn",
-      "extra": "Doors 6:30/Show 7:30pm, supporting Chicano Batman, free",
-      "state": "NY"
-    },
-    {
       "date": "8/26/22",
       "artist": "Habibi Festival w/ Esraa Warda, Firas Zreik, Yacine Boularès, and AJOYO",
       "venue": "Bryant Park",
